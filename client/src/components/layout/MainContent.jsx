@@ -1,4 +1,3 @@
-// src/components/layout/MainContent.jsx
 import { Box } from '@mui/material';
 
 const MainContent = ({ children }) => {
