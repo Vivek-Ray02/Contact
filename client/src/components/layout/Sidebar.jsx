@@ -1,4 +1,3 @@
-// src/components/layout/Sidebar.jsx
 import { useState } from 'react';
 import {
   Box,
