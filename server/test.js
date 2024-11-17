@@ -1,4 +1,3 @@
-// server/test.js
 const axios = require('axios');
 
 const API_URL = 'http://localhost:3001';
