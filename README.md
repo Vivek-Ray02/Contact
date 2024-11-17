@@ -104,6 +104,7 @@ contactSchema.pre('save', function(next) {
 });
 
 module.exports = mongoose.model('Contact', contactSchema);
+```
 
 ## 🏗️ Project Structure
 
@@ -123,31 +124,40 @@ module.exports = mongoose.model('Contact', contactSchema);
 │   │   └── Contact.js
 │   ├── index.js
 │   └── .env
+```
+## 🚀 Setup Instructions
 
-🚀 Setup Instructions
-
-1. Clone the repository
+1. **Clone the repository**
+   ```bash
     git clone [repository-url]
-2. Backend Setup
+2. **Backend Setup**
+   ```bash
         cd server
         npm install
-    Create a .env file:
+3. **Create a .env file:**
+   ```bash
         MONGODB_URI=your_mongodb_connection_string
         PORT=3001
-3. Frontend Setup
+4. **Frontend Setup**
+   ```bash
     cd client
     npm install
-4. Run the Application
-    # Start backend (from server directory)
+5. **Run the Application** <br>
+    Start backend (from server directory)
+     ```bash
     npm start
-    # Start frontend (from client directory)
+  <br>
+    Start frontend (from client directory)
+    
     npm start
 
-🧪 Testing
-Run the test suite:
+## 🧪 Testing
+
+  Run the test suite:
     npm test
 
 🛠️ Technical Decisions & Implementation
+
     Backend Implementation
 
         Validation: Mongoose schemas handle data validation
@@ -161,13 +171,20 @@ Run the test suite:
         UI/UX: Material-UI components for consistent design
         Form Handling: Real-time validation and error feedback
 
-💭 Challenges & Solutions
 
-1. Challenge: Handling real-time form validation
-   Solution: Implemented custom validation hooks with Material-UI's error handling
+## 💭 Challenges & Solutions
 
-2. Challenge: Managing complex state for table sorting and pagination
-   Solution: Created dedicated state management for table operations
+1. *Challenge: Handling real-time form validation*
 
-3. Challenge: Ensuring consistent error handling across the stack
-   Solution: Implemented a standardized error handling system with appropriate HTTP status codes
+
+    Solution: Implemented custom validation hooks with Material-UI's error handling
+
+2. *Challenge: Managing complex state for table sorting and pagination*
+
+
+    Solution: Created dedicated state management for table operations
+
+3. *Challenge: Ensuring consistent error handling across the stack*
+
+   
+    Solution: Implemented a standardized error handling system with appropriate HTTP status codes
