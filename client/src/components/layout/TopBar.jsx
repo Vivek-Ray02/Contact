@@ -1,4 +1,3 @@
-// src/components/layout/TopBar.jsx
 import {
     AppBar,
     Toolbar,
