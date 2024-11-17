@@ -188,3 +188,21 @@ module.exports = mongoose.model('Contact', contactSchema);
 
    
     Solution: Implemented a standardized error handling system with appropriate HTTP status codes
+
+
+## APP UI
+1. *Main Page*
+![CRM Dashboard](images/Main.png)
+
+1. *Add New Contact*
+![CRM New](images/New.png)
+
+1. *Updating Contact*
+![CRM Edit](images/Edit.png)
+
+1. *Deleting Contact*
+![CRM Delete](images/Delete.png)
+
+1. *Sorting Accodring to Names in Descending Order*
+![CRM Descend](images/Sorting.png)
+
