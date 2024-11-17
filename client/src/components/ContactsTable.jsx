@@ -1,4 +1,3 @@
-// src/components/ContactsTable.jsx
 import { useState } from 'react';
 import {
   Table,
