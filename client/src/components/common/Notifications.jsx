@@ -1,4 +1,3 @@
-// src/components/common/Notifications.jsx
 import { Snackbar, Alert } from '@mui/material';
 
 const Notifications = ({ open, message, type, onClose }) => {
