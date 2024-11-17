@@ -3,7 +3,7 @@ import { createTheme } from '@mui/material';
 export const theme = createTheme({
   palette: {
     primary: {
-      main: '#5B6BF8', // Erino's purple/blue color
+      main: '#5B6BF8',
       light: '#7C89F9',
       dark: '#4555F7'
     },
